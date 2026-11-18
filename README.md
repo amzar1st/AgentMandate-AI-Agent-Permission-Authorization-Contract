@@ -50,3 +50,13 @@ python -m pytest -q
 ```
 
 The GenLayer Direct Mode suite uses mocked classifications and exercises permit consumption, validator disagreement, access control, replay prevention, revocation, and budget contention.
+
+## Studionet deployment
+
+Deployed on 2026-11-18 using GenLayer Studio in Normal (Full Consensus) mode.
+
+- [Explorer contract](https://explorer-studio.genlayer.com/address/0xE2E6D6e64BC093f60940a8E7E222E2Bd3785e365)
+- [Deployment transaction](https://explorer-studio.genlayer.com/tx/0xd864549a416d8665de011dea257d65e7340ceb02a13062fbc5bfb7e613ff3e17)
+- Contract address: `0xE2E6D6e64BC093f60940a8E7E222E2Bd3785e365`
+
+The deployed source is visible in Explorer. This instance has an unconfigured mandate. Deployment verifies construction and schema loading. Semantic purchase evaluation has been tested in Direct Mode with mocked LLM responses.
